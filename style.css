@@ -1,0 +1,64 @@
+.container{
+     
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    border: 3px solid rgb(241, 60, 28);
+    border-radius: 20px 20px 20px 20px;
+    background-color: rgb(160, 239, 34);
+    color: rgb(255, 0, 0);
+    padding: 10px;
+}
+.btn:hover{
+    border: 3px double rgb(106, 184, 11);
+    border-radius: 20px 20px 20px 20px;
+    background-color: rgb(241, 136, 23);
+    color: rgb(31, 248, 96);
+    padding: 15px;
+    transition: 3s all ease-in-out;
+}
+.btn-close{
+    border: 2px dotted red;
+    background-color: #00b3ff;
+}
+.btn-close:hover{
+    border: 4px dotted red;
+    background-color: #00b3ff;
+    transition: 1s all ease-in-out;
+}
+.modal-title{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+.modal-body{
+    background-color: rgb(60, 59, 59);
+    color: white;
+}
+.modal-body:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(247, 116, 116);
+}
+.accordion-button{
+color: rgb(116, 6, 36);
+}
+.accordion-collapse {
+    background-color: rgb(174, 211, 254);
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.accordion-collapse:hover {
+    background-color: rgb(174, 254, 222);
+}
+.accordion-item{
+    border: 2px solid orangered;
+}
+.accordion-button{
+    background-color: rgb(21, 179, 86);
+}
+.accordion-button:hover{
+    background-color: rgb(181, 50, 247);
+}
